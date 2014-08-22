@@ -1,0 +1,12 @@
+name: MFC
+main: mfc.MFC
+version: 1.0
+depend: [WorldEdit, Vault]
+author: MoeMix
+commands:
+  setspawn:
+    description: sets the spawn
+  setportal:
+    description: sets the portal
+  wportal:
+    description: test cmd
