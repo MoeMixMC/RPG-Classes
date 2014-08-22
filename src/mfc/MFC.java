@@ -52,6 +52,7 @@ public class MFC extends JavaPlugin {
 		archerClass = new Class("Archer");
 		getServer().getPluginManager().registerEvents(new TeleportListener(), this);
 		logger.info("MFC [MineFuse Classes] has been Enabled!");
+		
 	}
 	
 	public void onDisable(){
@@ -382,7 +383,7 @@ public class MFC extends JavaPlugin {
 			double balance = economy.getBalance(player.getName());
 			if(args.length == 1){
 				int withdrawAmount = Integer.parseInt(args[0]);
-				// TODO check balance and do the withdrawal!!
+				
 			}
 		}
 		return false;
